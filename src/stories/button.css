@@ -1,0 +1,59 @@
+:root {
+
+    /* COLORS */
+    --primary : #0081C9;
+    --secondary : #5BC0F8;
+    
+    /* PADDING */
+    --small-padding: 5px 10px;
+    --medium-padding: 10px 20px;
+    --large-padding: 15px 25px;
+
+    /* FONT SIZES */
+    --large-font-size: 16px;
+    --medium-font-size: 14px;
+    --small-font-size: 12px;
+}
+.button {
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.primary {
+    background: var(--primary);
+    border: 2px solid var(--primary);
+    color: white; 
+
+}
+
+.secondary {
+    background: white;
+    border: 2px solid var(--secondary);
+    color: var(--secondary);
+
+}
+
+.text {
+    background: transparent;
+    border: 2px solid transparent;
+    color: var(--primary);
+}   
+
+.text:hover {
+    text-decoration : underline,
+}
+
+.large {
+    padding: var(--large-padding);
+    font-size: var(--large-font-size); 
+}
+
+.medium {
+    padding: var(--medium-padding);
+    font-size: var(--medium-font-size); 
+}
+
+.small {
+    padding: var(--small-padding);
+    font-size: var(--small-font-size); 
+}
